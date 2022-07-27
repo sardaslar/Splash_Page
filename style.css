@@ -1,0 +1,113 @@
+
+
+body {
+   
+background-color: azure;
+  
+}
+
+header {
+    background-color: white;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+}
+
+nav{
+    float: right;
+    ;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+/* remove the dots */
+    list-style: none;   
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+nav .headeralt a{
+    color: rgb(94, 90, 90);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:rgb(49, 27, 0)
+}
+
+nav #blueButton a{
+background: #1160E9;
+border-radius: 2px;
+text-decoration: none;
+color: white;
+}
+
+hr {
+    position: absolute;
+    width: 1920px;
+    height: 8px;
+    left: calc(50% - 1920px/2);
+    bottom: 76px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    background-color: #1160E9;
+    } 
+
+.section1 {
+    
+justify-content: center;
+position: absolute;
+width: 1920px;
+height: 896px;
+left: 0px;
+top: 101px;
+background: #FFFFFF;
+}
+
+
+.firstIn {
+    
+    position: absolute;
+    right: 800px;
+    top: 72px;
+    border-radius: 8px;
+    width: fit-content;
+    block-size: fit-content;
+
+    
+}
+
+.text-block{
+  position: absolute;
+  bottom: 500px;
+  right: 1450px;
+  background-color: rgb(255, 250, 250);
+  color: rgb(9, 7, 7);
+  padding-left: 10px;
+  padding-right: 20px;
+  height: 180px;
+  width: 400px;
+}
+
+#bluebutton {
+    background-color: #1160E9;
+    color: #FFFFFF;
+}
+
+#bluebutton:hover {
+    color: bisque;
+}
+
+
+
