@@ -1,10 +1,15 @@
-html {
-    overflow: auto;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-body {
-   
+
+
+html, body {
+    flex-shrink: 0;
     background-color: azure;
+    height: 100%;
+    flex-direction: column;
       
     }
     
@@ -63,7 +68,7 @@ body {
         left: calc(50% - 1920px/2);
         bottom: 76px;
         transform: matrix(1, 0, 0, -1, 0, 0);
-        background-color: #1160E9;
+        background-color: #083c97;
         } 
     
     .section1 {
@@ -112,20 +117,26 @@ body {
     }
     
     .container {
+        align-items: left;
+        padding-left: 100px;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        
     }
     .overview {
+        flex:0 0 25%;
+        margin: 10px;
+        padding: 10px;
         font-size: 20px;
-        padding-left: 20px;
+        padding-left: 50px;
+        font-stretch: expanded;
       
 
     }
     
    .imageroom {
     flex-basis: 40%;
-    float: left;
+    float: right;
+    padding-left: 70px;
    }
 
 .img {
@@ -147,6 +158,8 @@ body {
     .cont1 {
         padding-left: 20px;
         font-size: 20px;
+        padding: 20px;
+        margin: 20px;
        
        
     }
@@ -160,4 +173,31 @@ body {
         float: left;
     }
     
+    .lastpart {
+        background-color: #252222d9;
+        padding: 10px;
+        
+    }
+    .footer {
+        position: relative;
+      
+        margin: 35px;
+        color: #FFFFFF;
+    }
+
+    .location {
+        justify-content: center;
+        align-items: center;
+        padding-left: 450px;
+    }
+
+ .mapimage .map1 {
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 480px;
     
+
+    ;
+    
+ }
